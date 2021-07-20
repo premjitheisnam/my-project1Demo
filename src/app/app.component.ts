@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-project1Demo';
+  name="premjit";
+
+  get(){
+    return this.name;
+  }
+  object = {
+    name: "john",
+    age: 33
+  }
+  array = ['tiger','lion','dog']
 }
